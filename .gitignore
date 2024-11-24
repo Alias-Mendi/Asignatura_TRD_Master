@@ -1,0 +1,9 @@
+# Ignorar archivos sensibles
+Practica_1/.env
+
+# Ignorar directorios de configuración de IDE
+.idea/
+
+# Ignorar carpetas específicas
+/Practica_2/.env
+/Entregable_Final/.env
