@@ -7,3 +7,4 @@ Practica_1/.env
 # Ignorar carpetas específicas
 /Practica_2/.env
 /Entregable_Final/.env
+/Practica_1/,env
