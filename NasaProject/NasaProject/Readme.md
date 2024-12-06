@@ -16,32 +16,40 @@ Este script utiliza la API de FIRMS (Fire Information for Resource Management Sy
 * `matplotlib`: Para la visualización de datos.
 * `folium`: Para crear mapas interactivos.
 
+Sí, tienes razón. El formato Markdown para la indentación en listas y bloques de código requiere un espacio en blanco al inicio de cada línea. 
+
+Aquí te dejo el texto con la indentación corregida:
+
 ## Instalación
 
 1. **Clona el repositorio:**
    ```bash
    git clone [invalid URL removed]
-````
+   ```
 
-2.  **Instala las dependencias:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Obtén una clave de API de FIRMS:**
-      * Visita el sitio web de FIRMS: [https://firms.modaps.eosdis.nasa.gov/active\_fire/](https://www.google.com/url?sa=E&source=gmail&q=https://firms.modaps.eosdis.nasa.gov/active_fire/)
-      * Regístrate para obtener una clave de API.
-4.  **Configura la clave de API:**
-      * Reemplaza `'a0f1afd59cc42db75820a429a7617f3a'` en el script con tu clave de API.
+2. **Instala las dependencias:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Obtén una clave de API de FIRMS:**
+   * Visita el sitio web de FIRMS: [https://firms.modaps.eosdis.nasa.gov/active_fire/](https://firms.modaps.eosdis.nasa.gov/active_fire/)
+   * Regístrate para obtener una clave de API.
+
+4. **Configura la clave de API:**
+   * Reemplaza `'a0f1afd59cc42db75820a429a7617f3a'` en el script con tu clave de API.
 
 ## Uso
 
-1.  **Selecciona la tecnología de detección de incendios:**
-      * Modifica la variable `model` en el script para elegir el sensor deseado (ej. `'VIIRS_NOAA21_NRT'`).
-2.  **Selecciona la zona geográfica:**
-      * Modifica la variable `zone` en el script para elegir la zona deseada (ej. `'ESP'` para España, `'world'` para todo el mundo).
-3.  **Ejecuta el script:**
-      * El script descargará los datos de incendios de la API de FIRMS.
-      * Se generará un mapa interactivo (`mapa_incendios_espana.html`) que muestra los incendios en la zona seleccionada.
+1. **Selecciona la tecnología de detección de incendios:**
+   * Modifica la variable `model` en el script para elegir el sensor deseado (ej. `'VIIRS_NOAA21_NRT'`).
+
+2. **Selecciona la zona geográfica:**
+   * Modifica la variable `zone` en el script para elegir la zona deseada (ej. `'ESP'` para España, `'world'` para todo el mundo).
+
+3. **Ejecuta el script:**
+   * El script descargará los datos de incendios de la API de FIRMS.
+   * Se generará un mapa interactivo (`mapa_incendios_espana.html`) que muestra los incendios en la zona seleccionada.
 
 ## Datos
 
@@ -53,6 +61,8 @@ El script genera un mapa interactivo que muestra la ubicación de los incendios 
 
 ## Limitaciones
 
-  * El script está limitado por el número de transacciones permitidas por la API de FIRMS.
-  * La precisión de los datos depende de la tecnología de detección de incendios utilizada.
+* El script está limitado por el número de transacciones permitidas por la API de FIRMS.
+* La precisión de los datos depende de la tecnología de detección de incendios utilizada.
+```
 
+**Recuerda que la indentación es crucial en Markdown para que el formato se visualice correctamente.**
